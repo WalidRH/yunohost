@@ -3,7 +3,8 @@ YunoHost is an operating system aiming for the simplest administration of a serv
 [check intro & doc of yunohost](https://yunohost.org/en/whatsyunohost)
 
 ## Install Yunohost
-There are some images of yunohost in the [installation guide](https://yunohost.org/en/install/hardware:regular), you may use them, but they aren't up to date and sometimes the installation may be complicated and failed. I personnaly prefer to install a debian operating system; [Debian 10 (buster)](https://www.debian.org/releases/buster/debian-installer/). And then follow the installation guide in [this section](https://yunohost.org/en/install/hardware:vps_debian)
+There are some images of yunohost in the [installation guide](https://yunohost.org/en/install/hardware:regular), you may use them, but they aren't up to date and sometimes the installation may be complicated and failed. I personnaly prefer to install a debian operating system; [Debian 10 (buster)](https://www.debian.org/releases/buster/debian-installer/), the image that worked for me [CLICK THE LINK](https://gemmei.ftp.acc.umu.se/cdimage/archive/10.10.0/amd64/iso-cd/debian-10.10.0-amd64-netinst.iso)
+And then follow the installation guide in [this section](https://yunohost.org/en/install/hardware:vps_debian)
 
 ## scripts used 
 *   dns script: I used [Duck DNS](https://www.duckdns.org), to configure DNS for my server, and used duckdns.sh script in cron to reset a public ip adress to my dns domain
